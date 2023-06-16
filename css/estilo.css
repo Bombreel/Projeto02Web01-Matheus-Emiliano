@@ -1,0 +1,313 @@
+html {
+	font-family: sans-serif;
+	font-size: 16px;
+	background-color: #f8f6f7;
+	
+}
+
+nav, header{
+	background-color: white;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+}
+
+.menu-superior {
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-direita {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-direita a {
+	text-decoration: none;
+	color: black;
+	margin-left: 40px;
+}
+
+.menu-esquerda {
+	display: flex;
+	align-items: end;
+}
+
+#viagens {
+	font-weight: bolder;
+	display: flex;
+	align-items: center;
+	font-size: 0.8em;
+}
+
+.numeros {
+	font-size: 2rem;
+	font-weight: bolder;
+	display: flex;
+}
+
+#n1 {
+	color: #f35926;
+}
+
+#n2 {
+	color: #fcb929;
+}
+
+#n3 {
+	color: #00b049;
+}
+
+.text {
+	color: black;
+	font-size: 0.8rem;
+	font-weight: bolder;
+	padding-top: 0.7em ;
+}
+
+.container-menu {
+	width: 1480px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 9rem;
+}
+
+.titulo-form {
+	font-weight: bolder;
+	font-size: 1.5rem;
+	padding: 1rem;
+}
+
+
+.form-header {
+	display: flex;
+	justify-content: space-between
+}
+
+.form {
+	width: 950px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	padding: 1rem;
+	border-radius: 0.8em;
+	flex-wrap: wrap;
+}
+
+.input-group {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.input-box {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.buscar-botao button {
+	border: none;
+	padding: 0.62rem;
+	background-color: #ea3d35;
+	font-weight: bolder;
+	border-radius: 0.4em;
+}
+
+.buscar-botao button:hover {
+	background-color: rgb(131, 53, 25);
+}
+
+.buscar-botao button  {
+	text-decoration: none;
+	font-size: 0.93rem;
+	color: white;
+}
+
+.input-box input {
+	margin: 0.6rem;
+	padding: 0.5rem 0.3rem;
+	border-radius: 0.2rem;	
+}
+
+
+.fundo-barco {
+	width: 100%;
+	height: 390px;
+	background-image: url(../img/barcos.webp);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 2em;
+}
+
+.site-largura, .menu-superior {
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+
+.subtitulo {
+	margin-left: 1em;
+	margin-bottom: 1em;
+	font-weight: bolder;
+	font-size: 1.3em;
+}
+
+main {
+	margin: 1em;
+	
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.texto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 40px;
+	text-shadow: 1px 1px 5px black;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+h1, h2 {
+	
+	margin-bottom: 15px;
+}
+
+button {
+	padding: 5px;
+	background-color: white;
+	border: none;
+	border-radius: 20px;
+	padding-left: 2em;
+	padding-right: 2em;
+	box-shadow: 1px 1px 5px;
+}
+
+button:hover {
+	background-color: whitesmoke ;
+}
+
+
+
+#rio-de-janeiro {
+	background-image: url(../img/rio.webp);
+	color: white;
+	font-weight: bold;
+	background-position: center;
+	background-size: cover;
+	height: 90%;
+	width: 100%;
+	border-radius: 0.5em;
+}
+
+#bonito {
+	background-image: url(../img/bonito.webp);
+	color: white;
+	font-weight: bold;
+	background-position: center;
+	background-size: cover;
+	height: 90%;
+	width: 100%;
+	border-radius: 0.5em;
+}
+
+#sp {
+	background-image: url(../img/sao-paulo.webp);
+	color: white;
+	font-weight: bold;
+	background-position: center;
+	background-size: cover;
+	height: 90%;
+	width: 100%;
+	border-radius: 0.5em;
+}
+
+#foz {
+	background-image: url(../img/foz.webp);
+	color: white;
+	font-weight: bold;
+	background-position: center;
+	background-size: cover;
+	height: 90%;
+	width: 100%;
+	border-radius: 0.5em;
+}
+
+#maceio {
+	background-image: url(../img/maceio.webp);
+	color: white;
+	font-weight: bold;
+	background-position: center;
+	background-size: cover;
+	height: 90%;
+	width: 100%;
+	border-radius: 0.5em;
+}
+
+#salvador {
+	background-image: url(../img/salvador.webp);
+	color: white;
+	font-weight: bold;
+	background-position: center;
+	background-size: cover;
+	max-height: 90%;
+	width: 100%;
+	border-radius: 0.5em;	
+}
+
+#fortaleza {
+	background-image: url(../img/fortaleza.webp);
+	color: white;
+	font-weight: bold;
+	background-position: center;
+	background-size: cover;
+	height: 90%;
+	width: 100%;
+	border-radius: 0.5em;
+
+}
+
+#bh {
+	background-image: url(../img/belo-horizonte.webp);
+	color: white;
+	font-weight: bold;
+	background-position: center;
+	background-size: cover;
+	height: 90%;
+	width: 100%;
+	border-radius: 0.5em;
+}
+
+.flex-item {
+	height: 200px;
+	display: flex;
+	flex-basis: 21%;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+
+}
+
+
+
+
+
+	
+	
+
+
+
+
